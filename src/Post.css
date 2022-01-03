@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+} 
+
+body {
+    background-color: burlywood;
+}
+
+.window {
+    background-color: rgb(31, 31, 41);
+    padding: auto;
+    width: 800px;
+    height: 420px;
+    border-radius: 20px;
+    border: 2px solid white;
+    margin:  20px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.header {
+    display: inline-block;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.name {
+    display: inline-block;
+    color: white;
+    margin-left: 15px;
+}
+
+.nickname {
+    display: inline-block;
+    color: gray;
+    margin-left: 10px;
+}
+
+.date {
+    display: inline-block;
+    color: gray;
+    margin-left: 10px;
+}
+
+.content {
+    width: 100%;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: white;
+}
+
+.content_image {
+    display: fixed;
+    height: 300px;
+    width: 650px;
+    border-radius: 10px;
+    margin-left: 75px;
+    margin-top: 10px;
+}
